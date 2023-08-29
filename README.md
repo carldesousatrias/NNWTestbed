@@ -1,10 +1,11 @@
+
 # NNW-Testbed
 
 NNW-Testbed is a Python project, designed to help people understand and benchmark neural network watermarking methods. \
 The different watermarking methods, models, attacks, and datasets are stored in the NNWmethods, Architectures, Attacks, Data folders, respectively. \
 The NNWResources folder contains subfolders linked to NN watermarking methods requiring specific external elements, as for example an image serving as watermark or a set of inputs serving as trigger dataset. \
 The file utils.py regroups the support functions, transversal with respect to the NN watermarking methods, like reading input data or inference producing. \
-The file main.py is the main function of the testbed, covering the NN watermarking workflow presented in [paper](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9739).\
+The file main.py is the main function of the testbed, covering the NN watermarking workflow presented in the associated paper.\
 \
 **Note**: Pictures, details and illustration should be added uppon acceptance of the paper.
 ## Installation
@@ -33,6 +34,10 @@ The implemented datasets are MNIST, CIFAR10, and CIFAR100 but you can add any ot
 
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
+
+## Acknowledgment
+
+This work is carried out under the framework of the NewEmma project (Neural nEtwork Watermarking for Energy efficient Mobile Multimedia Applications) founded by the DIGICOSME laboratory of excellence in France.
 
 ## License
 
